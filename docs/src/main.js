@@ -503,7 +503,7 @@ const UI = {
         gridWrapper.className = 'max-h-[400px] overflow-y-auto border-2 border-indigo-500/20 rounded-2xl p-4 bg-slate-900/40 backdrop-blur-xl shadow-2xl';
         
         const grid = document.createElement('div');
-        grid.className = 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-2';
+        grid.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-2';
         gridWrapper.appendChild(grid);
         explorerContainer.appendChild(gridWrapper);
 
